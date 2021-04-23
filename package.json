@@ -1,10 +1,9 @@
 {
-    "name": "simple-container-proxy",
+    "name": "firefox-simple-container-proxy",
     "version": "1.0.0",
-    "description": "Simple Container Proxy",
+    "description": "Firefox Simple Container Proxy",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start:firefox": "npm run firefox-launch",
         "start:views": "node scripts/start.js",
         "dev": "node scripts/dev.js",
         "build": "node scripts/build.js",
@@ -19,12 +18,12 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/shirshak55/simple-container-proxy.git"
+        "url": "https://github.com/shirshak55/firefox-simple-container-proxy.git"
     },
     "author": "Shirshak Bajgain <shirshak55@pm.me>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/shirshak55/simple-container-proxy/issues"
+        "url": "https://github.com/shirshak55/firefox-simple-container-proxy/issues"
     },
     "dependencies": {
         "@babel/core": "7.13.16",

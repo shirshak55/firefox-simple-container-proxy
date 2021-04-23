@@ -1,4 +1,4 @@
-### Firefox Simple Container Proxy.
+### Firefox Simple Container Proxy
 
 ### Screenshots
 
