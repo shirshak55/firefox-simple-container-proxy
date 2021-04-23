@@ -1,0 +1,65 @@
+{
+    "name": "simple-container-proxy",
+    "version": "1.0.0",
+    "description": "Simple Container Proxy",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start:firefox": "npm run firefox-launch",
+        "start:views": "node scripts/start.js",
+        "dev": "node scripts/dev.js",
+        "build": "node scripts/build.js",
+        "clean": "rimraf build/ dev/ dist/ extension/ *.zip",
+        "firefox-launch": "node scripts/dev.js --browser=firefox"
+    },
+    "keywords": [
+        "extension",
+        "react",
+        "container",
+        "proxies"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shirshak55/simple-container-proxy.git"
+    },
+    "author": "Shirshak Bajgain <shirshak55@pm.me>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/shirshak55/simple-container-proxy/issues"
+    },
+    "dependencies": {
+        "@babel/core": "7.13.16",
+        "@babel/preset-env": "7.13.15",
+        "@babel/preset-react": "7.13.13",
+        "@polymer/paper-button": "3.0.1",
+        "babel-loader": "8.2.2",
+        "babel-plugin-named-asset-import": "0.3.7",
+        "babel-preset-react-app": "10.0.0",
+        "bfj": "7.0.2",
+        "case-sensitive-paths-webpack-plugin": "2.4.0",
+        "chalk": "4.1.1",
+        "colors": "1.4.0",
+        "copy-webpack-plugin": "8.1.1",
+        "css-loader": "5.2.4",
+        "dotenv": "8.2.0",
+        "dotenv-expand": "5.1.0",
+        "file-loader": "6.2.0",
+        "friendly-errors-webpack-plugin": "1.7.0",
+        "fs-extra": "9.1.0",
+        "html-webpack-plugin": "5.3.1",
+        "html-webpack-tags-plugin": "3.0.1",
+        "mini-css-extract-plugin": "1.5.0",
+        "optimize-css-assets-webpack-plugin": "5.0.4",
+        "pnp-webpack-plugin": "1.6.4",
+        "react": "17.0.2",
+        "react-dev-utils": "11.0.4",
+        "react-dom": "17.0.2",
+        "style-loader": "2.0.0",
+        "url-loader": "4.1.1",
+        "webextension-polyfill": "0.8.0",
+        "webpack": "5.35.0",
+        "webpack-dev-server": "3.11.2"
+    },
+    "browserslist": [
+        "last 1 Chrome version"
+    ]
+}
